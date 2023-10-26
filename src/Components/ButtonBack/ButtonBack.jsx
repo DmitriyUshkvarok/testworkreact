@@ -1,5 +1,6 @@
 'use client';
 import { useRouter } from 'next/navigation';
+import { fredericka } from '@/src/app/fonts';
 import styles from './ButtonBack.module.css';
 
 const ButtonBack = () => {
@@ -12,7 +13,7 @@ const ButtonBack = () => {
         aria-label="go back"
         onClick={router.back}
       >
-        Go Back
+        <span className={fredericka.className}> Go Back</span>
       </button>
     </div>
   );

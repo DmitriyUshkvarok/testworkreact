@@ -30,6 +30,7 @@
     align-items: center;
     gap: 30px;
     flex-wrap: wrap;
+    margin-bottom: 15px;
 }
 
 @media screen and (max-width:600px) {
@@ -61,6 +62,12 @@
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
+}
+
+.activeLink {
+    text-decoration: underline;
+    color: aqua;
+    padding: 5px;
 }
 
 .dynamicListSubTitle {
