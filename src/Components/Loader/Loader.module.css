@@ -1,0 +1,27 @@
+.loaderWrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: var(--textColor);
+}
+
+.loaderContent {
+    font-size: 100px;
+    background-image: linear-gradient(to right, #603813, #b29f94);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: var(--filterShadow);
+    -webkit-filter: var(--filterShadow);
+}
+
+@media screen and (max-width:600px) {
+    .loaderContent {
+        font-size: 50px;
+    }
+}

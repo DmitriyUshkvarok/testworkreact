@@ -1,0 +1,45 @@
+.dynamicPageTitle {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: var(--textColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+    filter: var(--filterShadow);
+    -webkit-filter: var(--filterShadow);
+    margin-bottom: 35px;
+}
+
+.dynamicPageOrder {
+    max-width: 300px;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: var(--textColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+    filter: var(--filterShadow);
+    -webkit-filter: var(--filterShadow);
+    margin-bottom: 15px;
+}
+
+.dynamicPagePath {
+    max-width: 300px;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: var(--textColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+    filter: var(--filterShadow);
+    -webkit-filter: var(--filterShadow);
+}

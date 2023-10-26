@@ -1,0 +1,7 @@
+.btnBack {
+    color: wheat;
+    padding: 5px;
+    background-image: var(--textColor);
+    filter: var(--filterShadow);
+    -webkit-filter: var(--filterShadow);
+}
